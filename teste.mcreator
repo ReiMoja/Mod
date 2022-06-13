@@ -1,20 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Basalt",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basalt"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.teste.basalt": "Basalt"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
