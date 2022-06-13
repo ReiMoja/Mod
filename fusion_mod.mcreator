@@ -1,0 +1,63 @@
+{
+  "mod_elements": [
+    {
+      "name": "FusionTable",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_table",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "FusionTableGUI",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_table_gui"
+    },
+    {
+      "name": "FusionOreTable",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_ore_table"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.teste.fusion_ore_table": "Fusion Ore Table",
+      "block.fusion_mod.fusion_ore_table": "Fusion Ore Table"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fusion_mod",
+    "modName": "FusionMod",
+    "version": "1.0.0",
+    "description": "added fusion ore table",
+    "author": "ReiMista, Rudizio",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.teste",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
