@@ -26,9 +26,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.teste.init.TesteModItems;
-import net.mcreator.teste.init.TesteModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -45,8 +42,6 @@ public class TesteMod {
 	public TesteMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		TesteModBlocks.REGISTRY.register(bus);
-		TesteModItems.REGISTRY.register(bus);
 
 	}
 
