@@ -1,19 +1,16 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="All Rights Reserved"
+license="Academic Free License v3.0"
 
 [[mods]]
-modId="fusion_mod"
+modId="teste"
 version="1.0.0"
-displayName="FusionMod"
+displayName="teste1"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="ReiMista, Rudizio"
-description='''
-added fusion ore table
-'''
+authors="rodri, MCreator"
 
-[[dependencies.fusion_mod]]
+[[dependencies.teste]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"
