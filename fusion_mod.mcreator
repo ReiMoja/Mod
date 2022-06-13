@@ -29,7 +29,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.teste.fusion_ore_table": "Fusion Ore Table"
+      "block.teste.fusion_ore_table": "Fusion Ore Table",
+      "item.fusion_mod.fusion_recipe_book": "Fusion Recipe Book",
+      "block.fusion_mod.fusion_ore_table": "Fusion Ore Table"
     }
   },
   "foldersRoot": {
