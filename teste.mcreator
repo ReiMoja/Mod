@@ -26,13 +26,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fusion_ore_table"
+    },
+    {
+      "name": "FusionRecipe",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.teste.fusion_ore_table": "Fusion Ore Table"
+      "block.teste.fusion_ore_table": "Fusion Ore Table",
+      "item.teste.fusion_recipe": "Fusion Recipe"
     }
   },
   "foldersRoot": {
