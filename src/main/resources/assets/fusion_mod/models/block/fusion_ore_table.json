@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fusion_mod:blocks/fusiontableside1",
+    "up": "fusion_mod:blocks/fusiontableside1",
+    "north": "fusion_mod:blocks/fusion_table_front_off",
+    "east": "fusion_mod:blocks/fusiontableside1",
+    "south": "fusion_mod:blocks/fusiontableside1",
+    "west": "fusion_mod:blocks/fusiontableside1",
+    "particle": "fusion_mod:blocks/fusiontableside1"
+  }
+}
