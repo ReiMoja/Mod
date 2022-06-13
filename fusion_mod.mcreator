@@ -1,6 +1,14 @@
 {
   "mod_elements": [
     {
+      "name": "FusionOreTable",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_ore_table"
+    },
+    {
       "name": "FusionTableGUI",
       "type": "gui",
       "sortid": 2,
@@ -9,20 +17,19 @@
       "registry_name": "fusion_table_gui"
     },
     {
-      "name": "FusionOreTable",
-      "type": "block",
-      "sortid": 3,
+      "name": "FusionRecipeBook",
+      "type": "item",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fusion_ore_table"
+      "registry_name": "fusion_recipe_book"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.teste.fusion_ore_table": "Fusion Ore Table",
-      "block.fusion_mod.fusion_ore_table": "Fusion Ore Table"
+      "block.teste.fusion_ore_table": "Fusion Ore Table"
     }
   },
   "foldersRoot": {

@@ -13,10 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.teste.item.FusionRecipeBookItem;
 import net.mcreator.teste.FusionModMod;
 
 public class FusionModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FusionModMod.MODID);
+	public static final RegistryObject<Item> FUSION_RECIPE_BOOK = REGISTRY.register("fusion_recipe_book", () -> new FusionRecipeBookItem());
 	public static final RegistryObject<Item> FUSION_ORE_TABLE = block(FusionModModBlocks.FUSION_ORE_TABLE, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
