@@ -33,7 +33,7 @@ public class FusionTableGUIScreen extends AbstractContainerScreen<FusionTableGUI
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("teste:textures/fusion_table_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("fusion_mod:textures/fusion_table_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -50,10 +50,10 @@ public class FusionTableGUIScreen extends AbstractContainerScreen<FusionTableGUI
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("teste:textures/simbolos_para_o_mod.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("fusion_mod:textures/simbolos_para_o_mod.png"));
 		this.blit(ms, this.leftPos + 36, this.topPos + 43, 0, 0, 13, 13, 13, 13);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("teste:textures/simbolos_para_o_mod2.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("fusion_mod:textures/simbolos_para_o_mod2.png"));
 		this.blit(ms, this.leftPos + 81, this.topPos + 43, 0, 0, 22, 15, 22, 15);
 
 		RenderSystem.disableBlend();

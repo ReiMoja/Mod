@@ -23,7 +23,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.teste.world.inventory.FusionTableGUIMenu;
-import net.mcreator.teste.init.TesteModBlockEntities;
+import net.mcreator.teste.init.FusionModModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -36,7 +36,7 @@ public class FusionOreTableBlockEntity extends RandomizableContainerBlockEntity 
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public FusionOreTableBlockEntity(BlockPos position, BlockState state) {
-		super(TesteModBlockEntities.FUSION_ORE_TABLE.get(), position, state);
+		super(FusionModModBlockEntities.FUSION_ORE_TABLE.get(), position, state);
 	}
 
 	@Override

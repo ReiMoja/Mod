@@ -1,5 +1,5 @@
 {
-  "parent": "teste:block/fusion_ore_table",
+  "parent": "fusion_mod:block/fusion_ore_table",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -18,7 +18,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.teste.init.TesteModMenus;
+import net.mcreator.teste.init.FusionModModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -34,7 +34,7 @@ public class FusionTableGUIMenu extends AbstractContainerMenu implements Supplie
 	private boolean bound = false;
 
 	public FusionTableGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(TesteModMenus.FUSION_TABLE_GUI, id);
+		super(FusionModModMenus.FUSION_TABLE_GUI, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
 		this.internal = new ItemStackHandler(3);

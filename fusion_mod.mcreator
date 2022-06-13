@@ -32,7 +32,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.teste.fusion_ore_table": "Fusion Ore Table"
+      "block.teste.fusion_ore_table": "Fusion Ore Table",
+      "block.fusion_mod.fusion_ore_table": "Fusion Ore Table"
     }
   },
   "foldersRoot": {
@@ -40,12 +41,13 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "teste",
-    "modName": "teste1",
+    "modid": "fusion_mod",
+    "modName": "FusionMod",
     "version": "1.0.0",
-    "author": "rodri, MCreator",
+    "description": "added fusion ore table",
+    "author": "ReiMista, Rudizio",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
