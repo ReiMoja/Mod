@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "teste:block/fusion_ore_table"
+    },
+    "facing=east": {
+      "model": "teste:block/fusion_ore_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "teste:block/fusion_ore_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "teste:block/fusion_ore_table",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "teste:block/fusion_ore_table",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "teste:block/fusion_ore_table",
+      "x": 90
+    }
+  }
+}

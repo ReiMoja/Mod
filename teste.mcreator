@@ -18,12 +18,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fusion_table_gui"
+    },
+    {
+      "name": "FusionOreTable",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_ore_table"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.teste.fusion_ore_table": "Fusion Ore Table"
+    }
   },
   "foldersRoot": {
     "name": "~",
