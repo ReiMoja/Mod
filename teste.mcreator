@@ -1,5 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "FusionTable",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_table",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "FusionTableGUI",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_table_gui"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
